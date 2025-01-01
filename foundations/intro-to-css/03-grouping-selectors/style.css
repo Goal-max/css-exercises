@@ -1,0 +1,29 @@
+/*
+two elements share in common:
+
+buttons
+font-family
+font-size
+
+each elements unique:
+
+color
+background-color
+
+*/
+
+.whitefont, 
+.blackfont {
+  font-family: Helvetica, "Times New Roman", sans-serif;
+  font-size: 28px;
+}
+
+.whitefont {
+  color: rgb(255, 255, 255);
+  background-color: #000000;
+}
+
+.blackfont {
+  color: hsl(0, 0%, 0%);
+  background-color: rgb(255, 255, 0);
+}
