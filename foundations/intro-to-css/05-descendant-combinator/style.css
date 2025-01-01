@@ -1,0 +1,41 @@
+/*common
+
+1st, 4th, 5th
+
+background-color
+color
+font-size
+text-align: center
+
+*/
+
+/*first way below*/
+
+/*
+.container .text {
+background-color: #ffff00;
+color: rgb(255, 0, 0);
+font-size: 20px;
+text-align: center;
+}
+*/
+
+
+/*second way below*/
+
+/*div p {
+background-color: rgb(255, 255, 0);
+color: hsl(0, 100%, 50%);
+font-size: 20px;
+text-align: center;
+}
+*/
+
+/*third way below*/
+
+div .text {
+background-color: hwb(60 0% 0%);
+color: #ff0000;
+font-size: 20px;
+text-align: center;
+}
