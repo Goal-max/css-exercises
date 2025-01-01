@@ -4,7 +4,7 @@
 }
 
 #second {
-  color: #0000ff;
+  color: hsl(240, 100%, 50%);
   font-size: 36px;
 }
 
@@ -12,14 +12,12 @@
   font-size: 24px;
 }
 
-.serif {
-  font-family:'Times New Roman', Times, serif;
-}
-
-
-
-#green {
-  background-color: hsl(120, 100%, 25%);
+#fourth {
+  background-color: rgb(154, 243, 154);
   font-weight: bold;
 }
+
+
+
+
 
