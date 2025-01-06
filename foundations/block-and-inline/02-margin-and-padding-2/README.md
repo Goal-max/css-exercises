@@ -16,3 +16,26 @@ Use this section to check your work. On _these_ projects, your goal isn't to att
 - Everything inside the `.button-container` section is centered, and there is 8px padding.
 - The Big Button is centered on its own line.
 - The Big Button has 24px space on the sides, and 8px on top and bottom.
+
+
+<!--
+3 main block elements
+  3rd block element contains a smaller block element (button)
+
+Margins:
+  1st block element margin-top large
+  All other margins appear equal
+
+Padding:
+  1st block element: equal all sides
+  2nd block element: top and bottom appears equal, left appears smaller
+  3rd block element: text is centred = left/right padding are set to auto
+  
+
+Typography
+  Font-size: larger in 2nd and 3rd block element
+  Font-weight: 1st block element less bold
+
+
+
+-->
