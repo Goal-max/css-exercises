@@ -5,11 +5,36 @@ body {
 img {
   width: 100px;
   height: 100px;
+
+  align-self: center;
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
+
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+/* edit below */
+.pic-row {
+  display: flex;
+  gap: 52px;
+  margin: 0 50px;
+  flex-basis: 200px;
+  
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.text {
+  text-align: center;  
 }
 
 /* do not edit this footer */
@@ -24,3 +49,8 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/*differences
+
+text-align:center moved to <body> selector
+they used max-width for the each item (containing image and text) instead of using flex-column
