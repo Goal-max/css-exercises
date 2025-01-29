@@ -85,7 +85,7 @@ button.cancel {
   /* max-width: 400px; */
 }
 
-.first {
+.header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
