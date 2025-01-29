@@ -23,7 +23,7 @@ body {
   
   display: flex;
   padding: 15px;
-  gap: 10px;
+  gap: 15px;
   
 }
 
@@ -39,7 +39,8 @@ body {
   align-items: center;
   justify-content: center;
 
-  margin-right: 10px;
+  
+  flex-shrink: 0;
    
 }
 
@@ -81,7 +82,7 @@ button.cancel {
   display: flex;
   flex-direction: column;
   gap: 15px;
-  max-width: 400px;
+  /* max-width: 400px; */
 }
 
 .first {
@@ -94,5 +95,6 @@ button.cancel {
 
 .header {
   font-weight: 700;
+  font-size: 18px;
 }
 
