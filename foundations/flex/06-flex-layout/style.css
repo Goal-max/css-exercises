@@ -8,7 +8,6 @@ body {
 
   display: flex;
   flex-direction: column;
-  border: 1px solid black;
 }
 
 img {
@@ -20,6 +19,8 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+
+  padding: 5px 12px;
 }
 
 input {
@@ -45,7 +46,6 @@ ul {
   list-style: none;
   display: flex;
   gap: 15px;
-  /* padding: 0 15px; */
   padding: 0;
   margin: 0;
 }
@@ -56,17 +56,18 @@ ul {
   flex: 1;
   justify-content: center;
   align-items: center;
+  /* could use gap here instead of margins for .input */
+  gap: 15px; /*change made after checking solution*/
 }
 
+/* below commented out after checking solution and using gap property instead in .content
 .input {
   margin-top: 10px;
   margin-bottom: 15px;
-}
+} */
 
 a {
   text-decoration: none;
-}
-
-button {
-  padding: 5px 12px;
+  /* need to add font color - changes below*/
+  color: #808080; 
 }
